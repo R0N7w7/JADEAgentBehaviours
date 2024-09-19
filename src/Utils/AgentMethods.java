@@ -17,7 +17,6 @@ public class AgentMethods {
         }
         return request;
     }
-
     // Método para enviar una respuesta a un mensaje recibido
     public static void responderMensaje(Agent agente, ACLMessage request, String contenido) {
         if (request == null) {

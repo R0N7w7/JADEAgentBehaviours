@@ -15,8 +15,10 @@ public class Main {
     public static void main(String[] args) {
         final String[] JADEARGS = new String[]{
             "-agents",
-            "AgenteEmisor:Agentes.AgentesConComportamientos.Cyclic.AgenteCyclicEmisor;"
-            + "AgenteReceptor:Agentes.AgentesConComportamientos.Cyclic.AgenteCyclicReceptor"
+            "AgenteJefe:Agentes.AgentesOntologia.AgenteJefe;"
+            + "AgenteEmpleado1:Agentes.AgentesOntologia.AgenteEmpleado;"
+            + "AgenteEmpleado2:Agentes.AgentesOntologia.AgenteEmpleado;"
+            + "AgenteGestor:Agentes.AgentesOntologia.AgenteGestor;"
         };
         jade.Boot.main(JADEARGS);
     }
